@@ -2,12 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Это моя первая страница">
-    <meta name="author" content="Egor">
-    <meta name="keywords" content="Сайт визитка, лол">
-    <meta name="robots" content="index, follow">
-    
-    <meta property="og:title" content="Заголовок предосмотра">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     
     <title>Псевдоним-Веб Разработчик</title>
 </head>
@@ -15,7 +11,7 @@
 
    <header>
        <nav>
-           <div class="logo">Псевдоним</div>
+           <div class="logo">Вассерман-Бестужев Егор</div>
            <div class="menu">
                <ul>
                    <li>Обо мне</li>
@@ -30,96 +26,146 @@
    </header>
    
    <div class="main"><div class="title_container">
-        <h1 align="center">Привет <br> Я Псевдоним</h1>
-        <h4 align="center">Фулл стек веб-разработчик</h4><br>
-        <center>
-            <input name="1" type="submit" value="Обо мне" align="center">
-            <input name="2"type="submit" value="Мои работы" align="center">  
-        </center> 
+        <h1>Привет <br> Я Егор</h1>
+        <h4>Фулл стек веб-разработчик</h4><br>
+        <input name="1" type="submit" value="Обо мне">
+        <input name="2"type="submit" value="Мои работы">
+
 
    </div></div>
-   
-   <div class="Obo mne">
-       <h2 align="center">Обо мне</h2>
-       <center>
-                  <img src="img/794335806725816320.png" alt="упс, аватарка не высветилась" style="text-align: center">
-       </center>
-       <p align="center">Тут я буду рассказывать про себя, <br> но пока рассказывать нечего.</p>
+
+      <div class="Obo_mne">
+       <h2>Обо мне</h2>
+
+       <img src="img/794335806725816320.png" alt="упс, аватарка не высветилась" type="image">
+
+       <p>Тут я буду рассказывать про себя, <br> но пока рассказывать нечего.</p>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
 
    </div>
-   <div>
-       <h2 align="center">Что я умею</h2><br>
-       <img src="img/hello_html_6caf2232.jpg" alt="..." width="85px" height="85px">
+   <div class="Ymenia">
+       <h2>Что я умею</h2><br>
+       <img src="img/hello_html_6caf2232.jpg" alt="..." width="85px" height="85px" id="img1">
        <img src="img/kisspng-web-development-computer-icons-software-developmen-5addec8d6122a9.1637152815244934533979.jpg" alt="..." width="85px" height="85px">
        <img src="img/shutterstock_728048641-scaled.jpg" alt="..." width="85px" height="85px">
        <img src="img/21.png" alt="..." width="85px" height="85px">
        <br>
-       <span>Веб-дизайн.</span>
-       <span>Разработка.</span>
-       <span>СЕО-оптимизация.</span>
-       <span>Маркетинг.</span> <br>
-       <span>Описание</span>
-       <span>Описание</span>
-       <span>Описание</span>
-       <span>Описание</span>
-   </div>
+       <span class="nazymenia" id="naz1">Веб-дизайн.</span>
+       <span class="nazymenia" id="naz2">Разработка.</span>
+       <span class="nazymenia">СЕО-оптимизация.</span>
+       <span class="nazymenia" id="naz4">Маркетинг.</span> <br>
+       <span class="ymop" id="op1">Описание</span>
+       <span class="ymop">Описание</span>
+       <span class="ymop">Описание</span>
+       <span class="ymop">Описание</span>
+   </div> 
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
     
-    <div>
+    <div class="keys">
         <h2>Кейсы</h2>
         <p>Опсиание(или что-то другое)</p>
-        <img src="img/instrument37.jpg" alt="" width="200px" height="100px"> <br>
-        <span><b>CLIENT:</b></span> <br>
-        <span>Что-то написано</span> <br><br>
-        <span><b>WEBSITE:</b></span> <br>
-        <a href="ссылка">https:/вобщем_ссылка</a> <br>
-        <input name="3"type="submit" value="Перейти на сайт"><br>  
-        <span><b>Название сатйа</b></span><br>
-        <span>Рассказ об этом</span>
+        <img src="img/instrument37.jpg" alt="" width="600px" height="400px"> <br>
+        <span class="webcli" id="bigh1"><b>CLIENT:</b></span><span id="nazsa">
+        <b>Название проекта</b></span> <br>
+        <span class="webcli">Что-то написано</span>
+        <span id="opi1">Рассказ об этом</span> <br><br>
+        <span class="webcli" id="bigh2"><b>WEBSITE:</b></span> <br>
+        <a href="ссылка" class="webcli">https:/вобщем_ссылка</a> <br><br>
+        <input name="3"type="submit" value="Перейти на сайт" class="webcli" id="batton"><br>  
+        <br>
+        
     </div>  
-    <div>
-        <h2 align="center">Расчёт стоимости</h2>
-        <h4>Тип сайта</h4>
+    <div class="stoimost">
+        <h2>Расчёт стоимости</h2><br><br>
+        <h4>Тип сайта</h4><br>
         <select name="43" id="58">
-
+            <option disabled selected>Выберите пункт</option>
             <option value="">Сайт Привью</option>
             <option value="">Интернет Магазин</option>
         </select>
-        <h4>Дизайн</h4>
+        <h4>Дизайн</h4><br>
         <select name="44" id="57">
-
+            <option disabled selected>Выберите пункт</option>
             <option value="">Слабенький</option>
             <option value="">Средний</option>
             <option value="">Хороший</option>
         </select>
-        <h4>Адаптивность</h4>
-        <select name="44" id="57">
-
+        <h4>Адаптивность</h4><br>
+        <select name="45" id="59">
+            <option disabled selected>Выберите пункт</option>
             <option value="">Плохая</option>
             <option value="">Средняя</option>
             <option value="">Хорошая</option>
         </select> <br>
+        <br>
+        <br>
+        <br>
         <span>Сроки:</span><br>
         <span>Стоимость:</span>
-    </div>
-    <div>
+        <br>
+        <br>
+        <input type="submit" value="Оставить заявку">
+    </div> <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="statistika">
         <h2>Немного Статистики</h2>
 
-    <img src="img/smiley-clip-art-59.png" alt="" width="50px" height="50px">
-    <img src="img/kisspng-floor-grandfather-clocks-digital-clock-alarm-clo-5b388e14457473.0581016715304330442845.jpg" alt="" width="50px" height="50px">
-    <img src="img/scale_1200.webp" alt="" width="50px" height="50px">
-    <img src="img/golden-cup-clip-art-43.png" alt="" width="50px" height="50px"><br>
-    <span>120 </span><span> 4800 </span><span> 340 </span><span> 30 </span><br>
-    <span>Довольных клиентов </span><span>Часов работы </span><span>Завершено работ </span><span> Наград получено</span><br>
+    <img src="img/smiley-clip-art-59.png" alt="" width="100px" height="100px" id="statimg1">
+    <img src="img/kisspng-floor-grandfather-clocks-digital-clock-alarm-clo-5b388e14457473.0581016715304330442845.jpg" alt="" width="100px" height="100px">
+    <img src="img/scale_1200.webp" alt="" width="100px" height="100px">
+    <img src="img/golden-cup-clip-art-43.png" alt="" width="100px" height="100px"><br>
+    <span class="span1" id="stat1">120 </span>
+    <span class="span1"> 4800 </span>
+    <span class="span1"> 340 </span>
+    <span class="span1" id="stat2"> 30 </span><br>
+    <span class="span2" id="stat21">Довольных клиентов </span>
+    <span class="span2">Часов работы </span>
+    <span class="span2">Завершено работ </span>
+    <span class="span2"> Наград получено</span><br>
     </div>
-    <div>
-        <h2>Отзывы</h2>
-        <span>Отзывов пока нет.</span><br>
-        <input type="submit" value="Оставить отзыв">
-    </div>
-    <footer align="center">
-        <h2>Контакты</h2>
-        <span>Номер телефона</span><br>
-        <span>Ссылки на соц. сети</span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="otzv">
+        <h2>Отзывы</h2> <br>
+        <br>
+        <br>
+        <span id="otzv1">Отзывов пока нет.</span><br>
+    </div> <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+       <div class="contakt">
+        <h2>Контакты:</h2>
+        <a href="tel:89262791158" id="telef">89262791158</a><br>
+        <span id="sylka">Ссылки на соц. сети</span>
+       </div>
+
     </footer>
 </body>
 </html>

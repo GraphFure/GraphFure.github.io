@@ -1,0 +1,249 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/794335806725816320.png) 90% 100%/auto 85% no-repeat ,url(../img/1621514781_13-phonoteka_org-p-stilnii-belii-fon-13.jpg) center/cover no-repeat;
+    
+}
+
+.title_container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+    
+}
+
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
+}
+
+.Obo_mne h2{
+    text-align: center;
+    font-size: 30px;
+    color: #0D6DB0;
+}
+
+.Obo_mne img{
+    margin-left: 885px;
+    border: 5px solid red;
+    border-radius: 50%;
+    
+    
+}
+.Obo_mne p{
+    text-align: center;
+    font-size: 15px;
+    color: #0D6DB0;
+    
+}
+.Ymenia{
+    background: url(../img/1621514781_13-phonoteka_org-p-stilnii-belii-fon-13.jpg) center/cover no-repeat;
+}
+
+.Ymenia h2{
+    text-align: center;
+    font-size: 30px;
+    color: #0D6DB0;
+}
+#img1{
+    margin-left: 710px;
+}
+.Ymenia img{
+    margin: 0px 35px 0px 35px;
+}
+#naz1{
+    margin-left: 710px;
+}
+.nazymenia{
+    font-size: 15px;
+    margin: 0px 30px 0px 30px;
+    color: darkorange;
+}
+#naz4{
+    margin: 0px 0px 0px 20px;
+}
+#naz2{
+    margin: 0px 20px 0px 42px;
+}
+.ymop{
+    color: #0D6DB0;
+    margin: 0px 40px 0px 50px;
+    
+}
+#op1{
+    margin-left: 710px;
+}
+.keys h2{
+    text-align: center;
+    font-size: 30px;
+    color: #0D6DB0;
+    
+}
+.keys p{
+    text-align: center;
+    font-size: 12px;
+    color: #0D6DB0;
+    
+}
+.keys img{
+    margin-left: 650px;
+}
+.webcli{
+    margin-left: 550px;
+    color: #0D6DB0;
+}
+#bigh1{
+    font-size: 18px;
+    color: #0D6DB0;
+}
+#bigh2{
+    font-size: 18px;
+    color: #0D6DB0;
+}
+#batton{
+    padding: 10px;
+    border: 2px solid #0D6DB0;
+    border-radius: 7%;
+}
+#nazsa{
+    color: #0D6DB0;
+    margin-left: 200px;
+    font-size: 15px;
+}
+#opi1{
+    color: #0D6DB0;
+    margin-left: 162px;
+    font-size: 13px;
+}
+.stoimost{
+    margin-left: 650px;
+    margin-right: 650px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 5px #E6EDF3;
+    text-align: center;
+}
+.stoimost h2{
+    font-size: 40px;
+}
+.stoimost h4{
+    font-size: 25px;
+}
+.stoimost select{
+    font-size: 15px;
+}
+.stoimost span{
+    font-size: 15px;
+    margin-left: -500px;
+}
+.stoimost input{
+    border: 2px solid #1FC4E1;
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 15px;
+    color: #1FC4E1;
+}
+.statistika{
+    color: #0D6DB0;
+    background: url(../img/1621514781_13-phonoteka_org-p-stilnii-belii-fon-13.jpg) center/cover no-repeat;
+}
+.statistika h2{
+    text-align: center;
+    font-size: 30px;
+}
+#statimg1{
+    margin-left: 665px;
+}
+.statistika img{
+    margin: 0px 30px 0px 30px;
+}
+.span1{
+    font-size: 20px;
+    margin: 0px 60px 0px 60px;
+}
+#stat1{
+    margin-left: 695px;
+}
+#stat2{
+    margin-left: 70px;
+}
+.span2{
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 20px 0px 20px;
+}
+#stat21{
+    margin-left: 645px;
+}
+.otzv{
+    text-align: center;
+    font-size: 20px;
+    color: #0D6DB0;
+}
+#otzv1{
+    font-size: 10px;
+}
+.contakt{
+    background: url(../img/1621514781_13-phonoteka_org-p-stilnii-belii-fon-13.jpg) center/cover no-repeat;
+    color: #0D6DB0;
+}
+.contakt h2{
+    text-align: center;
+    font-size: 30px;
+}
+#telef{
+    margin-left: 890px;
+    font-size: 20px;
+}
+#sylka{
+    font-size: 20px;
+    margin-left: 860px;
+}
